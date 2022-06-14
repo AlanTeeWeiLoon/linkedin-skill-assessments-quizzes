@@ -742,3 +742,17 @@ public int Password
 - [ ] `Thread multitasking adds single-threaded code blocks together.`
 
 [Official Documentation: Threads](https://docs.microsoft.com/en-us/dotnet/standard/threading/threads-and-threading)
+    
+#### Q70. Which is a valid example of derived class?
+
+- [x] `public class PremiumUser: User {}`
+- [ ] `public class User: PremiumUser {}`
+- [ ] `public class PremiumUser sub User {}`
+- [ ] `public class PremiumUser -> User {}`
+    
+#### Q71. When do you use await foreach?
+
+- [ ] `when the calling method is asynchronous but the method you are calling is not`
+- [ ] `Never, it is not a valid construct`
+- [ ] `when accessing a method that returns a collection`
+- [x] `when accessing data from an asynchronous method that returns an IAsyncEnumerable<>
